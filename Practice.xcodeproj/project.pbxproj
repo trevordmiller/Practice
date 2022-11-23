@@ -13,7 +13,6 @@
 		9FFFEAE9292EB5CA00B57805 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFFEAE8292EB5CA00B57805 /* Preview Assets.xcassets */; };
 		9FFFEAF3292EB5CA00B57805 /* PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFEAF2292EB5CA00B57805 /* PracticeTests.swift */; };
 		9FFFEAFD292EB5CA00B57805 /* PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFEAFC292EB5CA00B57805 /* PracticeUITests.swift */; };
-		9FFFEAFF292EB5CA00B57805 /* PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFEAFE292EB5CA00B57805 /* PracticeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		9FFFEAF2292EB5CA00B57805 /* PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTests.swift; sourceTree = "<group>"; };
 		9FFFEAF8292EB5CA00B57805 /* PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFFEAFC292EB5CA00B57805 /* PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITests.swift; sourceTree = "<group>"; };
-		9FFFEAFE292EB5CA00B57805 /* PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				9FFFEAFC292EB5CA00B57805 /* PracticeUITests.swift */,
-				9FFFEAFE292EB5CA00B57805 /* PracticeUITestsLaunchTests.swift */,
 			);
 			path = PracticeUITests;
 			sourceTree = "<group>";
@@ -276,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FFFEAFF292EB5CA00B57805 /* PracticeUITestsLaunchTests.swift in Sources */,
 				9FFFEAFD292EB5CA00B57805 /* PracticeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
