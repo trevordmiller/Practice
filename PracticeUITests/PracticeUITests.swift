@@ -9,6 +9,7 @@ final class PracticeUITests: XCTestCase {
     func testExample() throws {
         let app = XCUIApplication()
         app.launch()
+        XCTAssertTrue(app.staticTexts["Hello World"].exists)
     }
 
 }
